@@ -67,7 +67,7 @@ function getQuestions() {
         }
     }
      //[0] Send Request
-     myRequest.open("GET", "html_questions.json", true); // the URL(API) should be taken by the backend developer
+     myRequest.open("GET", "questions.json", true); // the URL(API) should be taken by the backend developer
      myRequest.send();
 
 }
